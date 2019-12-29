@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: eureka-demo
+  security:
+    user:
+      name: dmw
+      password: 123456
+
+---
+spring:
+  profiles:
+    active: peer1
+---
+spring:
+  profiles:
+    active: peer2
+---
+spring:
+  profiles:
+    active: peer3

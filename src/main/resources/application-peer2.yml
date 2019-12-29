@@ -1,0 +1,8 @@
+server:
+  port: 7778
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    service-url:
+      defaultZone: http://dmw:123456@peer1:7777/eureka,http://dmw:123456@peer3:7779/eureka
